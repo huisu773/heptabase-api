@@ -14,7 +14,7 @@ jobs:
 
       - name: Fetch JSON data
         run: |
-          curl https://api.dabing.one?whiteboard_id=d4cc3728297609add1a00aab108e90c4e57a1c378cfc2307c251745bf7d2a884 > data.json
+          curl https://notes-api.huisu.moe?whiteboard_id=82f86409b589ee493fb13337a699cf1abaa705db74f059fd9fecdfde34d0ee13 > data.json
 
       - name: Save JSON data to repository
         run: |
